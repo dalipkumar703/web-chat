@@ -1,0 +1,32 @@
+<html>
+    <head>
+      <!--  <link rel="stylesheet" href="s-chat-support.css">-->
+    </head>
+    <body>
+        <!-- your website's content here -->
+       <!--<script src="s-chat-support.js"></script>-->
+      <!--  <script src="new-chat-box.js"></script>-->
+        <script>
+
+        (function (window, document) {
+var loader = function () {
+  var script = document.createElement("script"), tag = document.getElementsByTagName("script")[0];
+  script.src = "embed.min.js";
+
+  document.body.appendChild(script);
+  console.log("script is working");
+};
+
+loader();
+
+})(window, document);
+
+
+
+        </script>
+        <script>
+
+        </script>
+        <p id="chat"></p>
+    </body>
+</html>
